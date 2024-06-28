@@ -70,7 +70,7 @@ After entering your credentials, click on the "Sign in" button.
 
 First change where the local repository will be pushed to from the master branch to the main branch using the following code:
 
-git config --global init.defaultBranch main
+           'git config --global init.defaultBranch main'
 
 Task 2: Local Setup
 
@@ -84,7 +84,7 @@ You can create the folder using the command line:
 
 • Windows Command Prompt:
 
-mkdir PLPBasicGitAssignment
+                "mkdir PLPBasicGitAssignment"
 
  - Open a terminal or command prompt and navigate to the created folder.
 
@@ -93,14 +93,15 @@ Navigating to the "PLPBasicGitAssignment" Folder:
 
 Replace <path> with the actual path to your "PLPBasicGitAssignment" folder.
 
-cd PLPBasicGitAssignment
+             "cd PLPBasicGitAssignment"
+             
 3. Git Initialization:
 
  - Initialize a new Git repository in your local folder.
 
 •Once navigate to the "PLPBasicGitAssignment" folder, initialize a new Git repository using the following command:
 
-git init
+                 "git init"
 
 This command initializes an empty Git repository in the current directory.
 
@@ -110,13 +111,13 @@ This command initializes an empty Git repository in the current directory.
  
  Link your local repository to the GitHub repository as a remote using the following code:
  
-git remote add origin https://github.com/exampleuser/PLPBasicGitAssignment.git
+                    "git remote add origin https://github.com/exampleuser/PLPBasicGitAssignment.git"
 
-git remote add origin https://github.com/Dorisombongi/PLPBasicGitAssignment
+                    "git remote add origin https://github.com/Dorisombongi/PLPBasicGitAssignment"
 
 You can verify the remote repository by using the following code:
 
-git remote -v
+                "git remote -v"
 
 Task 3: Making Changes
 
@@ -128,7 +129,7 @@ Task 3: Making Changes
 
 •Use Git terminal to create hello.txt and add content Hello, Git. Here's how you can do it via command line:
 
-echo "Hello, Git!" > hello.txt
+            "echo "Hello, Git!" > hello.txt"
 
 6. Committing Changes:
 
@@ -136,7 +137,7 @@ echo "Hello, Git!" > hello.txt
 
 Use the following command to stage hello.txt:
 
-git add hello.txt
+             "git add hello.txt"
 
 This command adds hello.txt to the staging area in Git. The staging area is where you prepare a snapshot of your changes before committing them to the repository.
 
@@ -144,15 +145,15 @@ Verify Staging
 
 You can verify which files are staged using:
 
-git status
+              "git status"
 
  - Commit the changes.
 
 Use the following command to commit the staged changes with a commit message:
 
-git commit -m "Add hello.txt with a greeting"
+         "git commit -m "Add hello.txt with a greeting""
 
-Use git log to verify.
+Use "git log" to verify.
 
 Task 4: Pushing to GitHub
 
@@ -162,7 +163,7 @@ Task 4: Pushing to GitHub
 
 Push the committed changes to GitHub using the following code:
 
-git push origin main
+             "git push origin main"
 
 Task 5: Verification
 
